@@ -12,7 +12,7 @@ export default function Todo() {
     const [editDescription, setEditDescription] = useState("");
     const [isLoading, setIsLoading] = useState(false);
 
-    const apiUrl = "http://localhost:8000";
+    const apiUrl = "https://mern-todo-list-m236.onrender.com";
     
     const handleSubmit = (e) => {
         e.preventDefault();
